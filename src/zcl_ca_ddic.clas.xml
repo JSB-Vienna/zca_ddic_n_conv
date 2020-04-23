@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common object: Check of / informations to data objects</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+     <CMPNAME>CHECK_FIXED_VALUES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate value against fixed values of a domain</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+     <CMPNAME>GET_COMPONENT_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return a list with type descriptions for a structure/table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+     <CMPNAME>GET_FIELD_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return field list for a Structure/(internal) table (DFIES)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+     <CMPNAME>GET_FIXED_VALUES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determination of fixed values to a table field/data element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+     <CMPNAME>GET_TYPE_DESC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create RTTI type description object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_DDIC</CLSNAME>
+     <CMPNAME>MO_TYPE_DESC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type description object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

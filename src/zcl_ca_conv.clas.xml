@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_CONV</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common object: Data conversion</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>BAPI_AMOUNT_2_INT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert BAPI amount into SAP internal value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>BOOLEAN_2_FLAG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert 1 / 0 into X / space</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>CONV_EXIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute conversion exit for input or output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>C_CONV_EXIT_INPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pattern for dynamic execution of conversion exit for input</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>C_CONV_EXIT_OUTPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pattern for dynamic execution of conversion exit for output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>C_CVEX_NAME_ALPHA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Conversion exit name: ALPHA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>C_DECIMAL_NOTATIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Decimal notation: Blank=4.567,89 / X=4,567.89 / Y=4 567,89</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>EXT_2_INT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Konvertiere eines externen Wertes in SAP internes format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>FLAG_2_BOOLEAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert X / space into 1 / 0</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>GS_USER_DEF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Default settings of user</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>INT_2_EXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Conversion of a SAP internal value into external format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_CONV</CLSNAME>
+     <CMPNAME>INT_AMOUNT_2_EXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert SAP internal amount into external value</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
